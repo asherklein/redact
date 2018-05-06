@@ -1,8 +1,7 @@
 {
   "name": "react-component-example-project",
   "version": "0.1.0",
-  "description":
-    "A minimal boilerplate for building a react component for npm, including a demo page.",
+  "description": "A minimal boilerplate for building a react component for npm, including a demo page.",
   "main": "lib/index.js",
   "scripts": {
     "dev": "concurrently \"npm run lib:watch\" \"npm run docs\"",
@@ -40,5 +39,8 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:yogaboll/react-npm-component-starter.git"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0"
   }
 }
